@@ -258,7 +258,7 @@ Regrettably, one feature missing from Jest is the ability to stub specific invoc
 
 If you encounter a function or method whose name starts with `_` or which has been tagged with the `@private` JSDoc tag or `private` keyword in TypeScript, you do not need to test this code. These markers are used to indicate that the code in question should not be used outside the file. As a result, any tests written for this code would need to have knowledge that no other part of the system would have. This is not to say that private code should not be tested at all, but rather that it should be tested via public code that makes use of the private code.
 
-## 🌳 Lay out classes in a specific order
+## 🙏 Lay out classes in a specific order
 
 Place items within a class in the following order:
 
